@@ -49,8 +49,9 @@ elif (monthname=="March" or monthname=="April" or monthname=="May"):
     season="spring"
 elif (monthname=="June" or monthname=="July" or monthname=="August"):
     season="summer"
-else:
+elif (monthname=="September" or monthname=="October" or monthname=="November"):
     season="fall"
+    
 if (year>=2000):
     yeartype="two thousands"
 elif (year>=1990):
