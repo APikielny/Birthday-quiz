@@ -1,7 +1,7 @@
 """
 birthday.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Adam Pikielny
+Credit: I read the readme
 Assignment:
 
 Your program will ask the user the following questions, in this order:
