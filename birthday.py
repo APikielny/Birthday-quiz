@@ -36,8 +36,6 @@ from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 monthname = month_name[todaymonth]
-print (monthname)
-print (todaydate)
 
 name=input("Hello, what is your name? ")
 month=input("Hi " + name + ", what was the name of the month you were born in? ")
