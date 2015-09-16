@@ -41,13 +41,13 @@ name=input("Hello, what is your name? ")
 month=input("Hi " + name + ", what was the name of the month you were born in? ")
 year=int(input("And what year were you born in, " + name + "? "))
 day=input("And the day? ")
-if (monthname=="December" or monthname=="January" or monthname=="February"):
+if (month=="December" or month=="January" or month=="February"):
     season="winter"
-elif (monthname=="March" or monthname=="April" or monthname=="May"):
+elif (month=="March" or month=="April" or month=="May"):
     season="spring"
-elif (monthname=="June" or monthname=="July" or monthname=="August"):
+elif (month=="June" or month=="July" or month=="August"):
     season="summer"
-elif (monthname=="September" or monthname=="October" or monthname=="November"):
+elif (month=="September" or month=="October" or month=="November"):
     season="fall"
     
 if (year>=2000):
